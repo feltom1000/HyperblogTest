@@ -7,6 +7,23 @@ body{
     padding: 0;
 }
 
+#cabecera{
+    background-color: #33a;
+    color: white;
+    box-shadow: -3px 8px 30px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    width: 100%;
+    margin: 0;
+    padding: 0.5em;
+
+}
+
+#cabecera #tagline{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
 #container{
 
     width: 50%;
@@ -18,5 +35,9 @@ body{
 
 #container h1{
     font-size: 24px;
-    text-align: center;
+}
+
+#post{
+
+    padding: 1em;
 }
